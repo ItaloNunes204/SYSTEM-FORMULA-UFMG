@@ -1,0 +1,36 @@
+  main .for_up{
+    position: fixed;
+  }
+  main .Inicio img{
+    height: 89vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  main .Sobre{
+    height: 89vh;
+    background-color: blue;
+  }
+  main .Projetos{
+    height: 89vh;
+    background-color: red;
+  }
+  main .Bibliografia{
+    height: 89vh;
+    background-color: blue;
+  }
+  main .Cursos{
+    height: 89vh;
+    background-color: red;
+  }
+  main .Membros{
+    height: 89vh;
+    background-color: blue;
+  }
+  main .Cronograma{
+    height: 89vh;
+    background-color: red;
+  }
+  main .Contato{
+    height: 89vh;
+    background-color: blue;
+  }
