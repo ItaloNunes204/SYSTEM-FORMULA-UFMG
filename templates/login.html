@@ -11,27 +11,29 @@
 </head>
 <body>
     <div class="container">
-        <div class="card">
-            <h1>Login</h1>
-            <div class="label-float">
-                <input type="text" id="usuario" placeholder=" " required>
-                <label for="usuario">Usuario</label>
+        <form action="/login" method="post">
+            <div class="card">
+                <h1>Login</h1>
+                <div class="label-float">
+                    <input type="text" id="matricula" placeholder=" " required>
+                    <label for="matricula">Matricula</label>
+                </div>
+                <div class="label-float">
+                    <input type="password" id="senha" placeholder=" " required>
+                    <label for="senha" id="labelSenha">Senha</label>
+                    <i class="bi bi-eye"></i>
+                </div>
+                <div class="justifile-center">
+                    <button>Login</button>
+                </div>
+                <div class="justifile-center">
+                    <hr>
+                </div>
+                <p>Não tem uma conta?
+                    <a href="">cadastre-se</a>
+                </p>
             </div>
-            <div class="label-float">
-                <input type="password" id="senha" placeholder=" " required>
-                <label for="senha" id="labelSenha">Senha</label>
-                <i class="bi bi-eye"></i>
-            </div>
-            <div class="justifile-center">
-                <button>Login</button>
-            </div>
-            <div class="justifile-center">
-                <hr>
-            </div>
-            <p>Não tem uma conta?
-                <a href="">cadastre-se</a>
-            </p>
-        </div>
+        </form>
     </div>
     <script src="../static/js/forms.js"></script>
     <script src="../static/js/valid_forms.js"></script>

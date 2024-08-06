@@ -1,0 +1,1 @@
+senha_banco = "italo175933"
